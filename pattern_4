@@ -1,0 +1,12 @@
+#include <stdio.h>                                   //1 21 321 4321 54321 
+int main()
+{
+  int ir,ic;
+  for(ir=5;ir>=1;ir--){
+      for(ic=ir;ic>=1;ic--)
+      {
+          printf("%d",ic);
+      }
+      printf("\n");
+  }
+}
